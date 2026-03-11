@@ -1,3 +1,5 @@
+import profileImage from '../assets/profile.jpg';
+
 const About = () => {
   return (
     <div className="min-h-screen bg-gray-50 py-20">
@@ -6,9 +8,11 @@ const About = () => {
         
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div className="flex justify-center">
-            <div className="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center shadow-2xl">
-              <span className="text-white text-6xl font-bold">AW</span>
-            </div>
+            <img 
+              src={profileImage} 
+              alt="Abdirahman Warsame" 
+              className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover shadow-2xl border-4 border-blue-500"
+            />
           </div>
           
           <div className="space-y-6">
@@ -30,9 +34,10 @@ const About = () => {
           <h3 className="text-2xl font-bold mb-8 text-gray-900">My Journey</h3>
           <div className="space-y-6 text-gray-700">
             <p className="text-lg leading-relaxed">
-              Currently, I'm studying Software Engineering at Moringa School, where I'm deepening my understanding 
-              of data structures, algorithms, and software design patterns. This structured learning, combined with 
-              my ICDL certification from Computer Pride, has given me a solid technical foundation.
+              I completed my Software Engineering course at Moringa School, where I deepened my understanding 
+              of data structures, algorithms, and software design patterns. Combined with my ICDL certification 
+              from Computer Pride, this has given me a solid technical foundation. Currently, I'm pursuing a degree 
+              to further expand my knowledge and expertise in software development.
             </p>
             <p className="text-lg leading-relaxed">
               What excites me most about development is the ability to bring ideas to life. I've worked on projects 

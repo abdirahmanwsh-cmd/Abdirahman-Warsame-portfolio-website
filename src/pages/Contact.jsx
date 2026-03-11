@@ -74,6 +74,7 @@ const Contact = () => {
                 <div className="text-3xl mr-4">📍</div>
                 <div>
                   <h4 className="font-bold text-lg mb-1">Location</h4>
+                  <p className="text-gray-600">Nairobi, Kenya</p>
                   <p className="text-gray-600">Available for remote work</p>
                 </div>
               </div>

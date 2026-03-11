@@ -62,7 +62,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start">
                 <span className="mr-2">📍</span>
-                <span className="text-sm">Available for remote work</span>
+                <span className="text-sm">Nairobi, Kenya<br />Available for remote work</span>
               </li>
               <li>
                 <Link to="/contact" className="inline-block mt-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition text-sm">
