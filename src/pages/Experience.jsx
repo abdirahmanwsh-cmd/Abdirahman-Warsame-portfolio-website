@@ -4,8 +4,8 @@ const Experience = () => {
       title: 'Software Engineering Course',
       organization: 'Moringa School',
       type: 'Education',
-      period: 'Current',
-      description: 'Comprehensive full-stack development training covering modern web technologies, software engineering principles, and best practices.',
+      period: 'Completed',
+      description: 'This is where everything clicked for me. Moringa gave me a structured, hands-on environment to grow from writing basic scripts to building full-stack applications. It was intense, challenging, and honestly one of the best decisions I made.',
       highlights: ['Full-stack web development', 'Data structures and algorithms', 'Agile methodologies', 'Real-world project development'],
       icon: '🎓',
       color: 'from-blue-500 to-indigo-500'
@@ -15,7 +15,7 @@ const Experience = () => {
       organization: 'Computer Pride',
       type: 'Certification',
       period: 'Completed',
-      description: 'International Computer Driving License certification demonstrating proficiency in essential computer skills and digital literacy.',
+      description: 'Before I wrote my first line of code, ICDL gave me a solid foundation in how computers and digital systems work. It built the discipline and technical awareness that I still carry into every project today.',
       highlights: ['Computer fundamentals', 'Digital literacy', 'Professional development', 'Technical discipline'],
       icon: '📜',
       color: 'from-green-500 to-emerald-500'
@@ -25,7 +25,7 @@ const Experience = () => {
       organization: 'Personal Project',
       type: 'Development',
       period: 'In Progress',
-      description: 'Building a comprehensive hospital management system focusing on scalability, modular architecture, and healthcare-specific requirements.',
+      description: 'This one is close to my heart. I am building a system that could genuinely help healthcare workers manage patients, appointments, and records more efficiently. It is pushing me to think about scalability and real-world impact.',
       highlights: ['System architecture design', 'Database modeling', 'API development', 'Frontend implementation'],
       icon: '🏥',
       color: 'from-purple-500 to-pink-500'
@@ -35,7 +35,7 @@ const Experience = () => {
       organization: 'Personal Project',
       type: 'Development',
       period: 'In Progress',
-      description: 'Developing a full-featured e-commerce platform for selling premium dates and spices with complete inventory and order management.',
+      description: 'A passion project that combines my love for good food and clean code. I am building a full e-commerce experience for selling premium dates and spices, handling everything from product listings to order management.',
       highlights: ['E-commerce functionality', 'Payment integration', 'Inventory management', 'User authentication'],
       icon: '🛒',
       color: 'from-orange-500 to-red-500'
@@ -46,7 +46,7 @@ const Experience = () => {
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50 py-20">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-6 text-gray-900">Experience & Education</h1>
-        <p className="text-center text-gray-600 mb-16 text-lg">My journey in software development</p>
+        <p className="text-center text-gray-600 mb-16 text-lg">Here's the path that got me to where I am today — the courses, certifications, and projects that shaped me as a developer.</p>
         
         <div className="space-y-8">
           {experiences.map((exp, index) => (

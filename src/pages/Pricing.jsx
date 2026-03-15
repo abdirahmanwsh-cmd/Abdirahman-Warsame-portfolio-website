@@ -39,7 +39,7 @@ const Pricing = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-6 text-gray-900">Pricing</h1>
         <p className="text-center text-gray-600 mb-16 text-lg max-w-2xl mx-auto">
-          Transparent pricing for quality web development services. All packages include responsive design and modern technologies.
+          I believe in being upfront about pricing. Here's what I typically charge — though every project is different, so feel free to reach out and we'll figure out what works for you.
         </p>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -88,7 +88,7 @@ const Pricing = () => {
         </div>
 
         <p className="text-center text-gray-600 mt-12 text-lg">
-          All prices are estimates. Final cost depends on specific requirements. Contact me for a detailed quote.
+          These are estimates — the final price depends on what you actually need. Not sure which package fits? Just reach out and let's talk it through.
         </p>
       </div>
     </div>

@@ -36,7 +36,7 @@ const Skills = () => {
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50 py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-6 text-gray-900">Skills & Technologies</h1>
-        <p className="text-center text-gray-600 mb-16 text-lg">Technologies I work with to build amazing applications</p>
+        <p className="text-center text-gray-600 mb-16 text-lg">Here's what I bring to the table — tools and technologies I've worked with and genuinely enjoy using.</p>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skillCategories.map((category, index) => (
@@ -56,7 +56,7 @@ const Skills = () => {
         </div>
 
         <div className="mt-16 bg-white rounded-xl shadow-lg p-8 md:p-12">
-          <h3 className="text-2xl font-bold mb-6 text-gray-900 text-center">Proficiency Level</h3>
+          <h3 className="text-2xl font-bold mb-6 text-gray-900 text-center">How comfortable am I with each?</h3>
           <div className="space-y-6">
             {[
               { name: 'React & Frontend Development', level: 85 },

@@ -36,7 +36,7 @@ const Contact = () => {
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50 py-20">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-6 text-gray-900">Get In Touch</h1>
-        <p className="text-center text-gray-600 mb-16 text-lg">Let's discuss your next project</p>
+        <p className="text-center text-gray-600 mb-16 text-lg">Have a project in mind or just want to say hi? I'd love to hear from you.</p>
         
         <div className="grid md:grid-cols-2 gap-12">
           <div className="bg-white rounded-xl shadow-lg p-8">
@@ -114,7 +114,7 @@ const Contact = () => {
                   onChange={(e) => setFormData({...formData, message: e.target.value})}
                   rows="5"
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  placeholder="Tell me about your project..."
+                  placeholder="What's on your mind?"
                 ></textarea>
               </div>
               <button

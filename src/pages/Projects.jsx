@@ -3,7 +3,7 @@ const Projects = () => {
     {
       title: 'Art Gallery Website',
       type: 'Frontend',
-      description: 'A responsive art gallery showcasing UI/UX design and component-based architecture with React.',
+      description: 'My first real frontend project. I built an art gallery that lets users browse and explore artwork. It helped me get comfortable with React components, responsive layouts, and making things look good.',
       tech: ['React', 'CSS3', 'Responsive Design'],
       status: 'Completed',
       color: 'from-pink-500 to-rose-500',
@@ -12,7 +12,7 @@ const Projects = () => {
     {
       title: 'Restaurant Ordering System',
       type: 'Full-Stack',
-      description: 'Complete ordering system with frontend, backend API, and database integration for seamless order management.',
+      description: 'A full-stack ordering system where customers can browse menus, place orders, and track them. This project taught me how to connect a React frontend to a Flask backend with a real database behind it.',
       tech: ['React', 'Flask', 'PostgreSQL', 'REST API'],
       status: 'Completed',
       color: 'from-orange-500 to-red-500',
@@ -22,7 +22,7 @@ const Projects = () => {
     {
       title: 'Beauty Shop Platform',
       type: 'Full-Stack',
-      description: 'E-commerce platform with product management, shopping cart, and business logic implementation.',
+      description: 'A collaborative full-stack project. We built a beauty shop platform where users can browse products, add to cart, and checkout. I handled the backend API and database while working closely with my teammate on the frontend.',
       tech: ['React', 'FastAPI', 'SQL', 'Payment Integration'],
       status: 'Completed',
       color: 'from-purple-500 to-indigo-500',
@@ -32,7 +32,7 @@ const Projects = () => {
     {
       title: 'Hospital Management System',
       type: 'Full-Stack',
-      description: 'A larger-scale system focused on improving structure, scalability, and modular architecture for healthcare management.',
+      description: 'Currently in progress. I am building this to solve a real problem — helping hospitals manage patients, staff, and appointments without the chaos of paper records. My most ambitious project yet.',
       tech: ['React', 'Node.js', 'PostgreSQL', 'RESTful API'],
       status: 'In Development',
       color: 'from-blue-500 to-cyan-500'
@@ -40,7 +40,7 @@ const Projects = () => {
     {
       title: 'Dates & Spices E-commerce',
       type: 'Full-Stack',
-      description: 'E-commerce platform for selling premium dates and spices with inventory management and order processing.',
+      description: 'Also in progress. A passion project for selling premium dates and spices online. I am building the full experience — product listings, cart, payments, and order tracking — from scratch.',
       tech: ['React', 'Flask', 'PostgreSQL', 'Payment Gateway'],
       status: 'In Development',
       color: 'from-green-500 to-emerald-500'
@@ -51,7 +51,7 @@ const Projects = () => {
     <div className="min-h-screen bg-gray-50 py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-6 text-gray-900">My Projects</h1>
-        <p className="text-center text-gray-600 mb-16 text-lg">A showcase of my full-stack development work</p>
+        <p className="text-center text-gray-600 mb-16 text-lg">Things I've built, broken, fixed, and shipped. Each one taught me something new.</p>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
