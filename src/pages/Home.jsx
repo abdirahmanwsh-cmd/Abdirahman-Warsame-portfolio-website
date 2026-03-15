@@ -59,9 +59,11 @@ const Home = () => {
           <h3 className="text-4xl font-bold text-center mb-16 text-gray-900">About Me</h3>
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="flex justify-center">
-              <div className="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center shadow-2xl">
-                <span className="text-white text-6xl font-bold">AW</span>
-              </div>
+              <img
+                src="/src/assets/profile.jpg"
+                alt="Abdirahman Warsame"
+                className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover shadow-2xl border-4 border-blue-500"
+              />
             </div>
             <div className="space-y-6">
               <h4 className="text-3xl font-bold text-gray-900">Full-Stack Developer</h4>
